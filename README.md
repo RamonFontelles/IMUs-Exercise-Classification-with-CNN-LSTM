@@ -3,6 +3,13 @@
 End‑to‑end pipeline to classify gym exercises using wrist IMU data with a CNN+LSTM in PyTorch.  
 Refactored from a Kaggle notebook into a clean, reproducible repo with a CLI and YAML config.
 
+## Kaggle notebook
+
+This repository is a clean refactor (package + CLI) of the original Kaggle notebook:
+
+- **IMU Exercise Classification with CNN-LSTM**  
+  https://www.kaggle.com/code/ramonfontelles/imu-exercise-classification-with-cnn-lstm
+  
 ## Features
 - Reusable `IMUDataset` with windowing & preprocessing (smoothing + downsampling)
 - Train/test session‑level split with stratification and no leakage
@@ -11,13 +18,6 @@ Refactored from a Kaggle notebook into a clean, reproducible repo with a CLI and
 - Simple CNN‑LSTM model
 - CLI: `python scripts/train.py --config configs/default.yaml`
 - Saves metrics, confusion matrix, and best checkpoint to `outputs/`
-
-## Kaggle notebook
-
-This repository is a clean refactor (package + CLI) of the original Kaggle notebook:
-
-- **IMU Exercise Classification with CNN-LSTM** — by Ramón Fontelles  
-  https://www.kaggle.com/code/ramonfontelles/imu-exercise-classification-with-cnn-lstm
 
 ## Install
 ```bash
