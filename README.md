@@ -12,6 +12,13 @@ Refactored from a Kaggle notebook into a clean, reproducible repo with a CLI and
 - CLI: `python scripts/train.py --config configs/default.yaml`
 - Saves metrics, confusion matrix, and best checkpoint to `outputs/`
 
+## Kaggle notebook
+
+This repository is a clean refactor (package + CLI) of the original Kaggle notebook:
+
+- **IMU Exercise Classification with CNN-LSTM** — by Ramón Fontelles  
+  https://www.kaggle.com/code/ramonfontelles/imu-exercise-classification-with-cnn-lstm
+
 ## Install
 ```bash
 python -m venv .venv && source .venv/bin/activate  # on Windows: .venv\Scripts\activate
